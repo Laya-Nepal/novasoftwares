@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Nova Softwares offers cutting-edge software solutions, SEO services, and digital marketing in Nepal. We help businesses grow online.">
+    <title>Nova Softwares | Nepali Digital Marketing & Software Solutions</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        // Adding smooth scroll behavior
+        document.documentElement.style.scrollBehavior = "smooth";
+    </script>
+</head>
+<body class="bg-white text-gray-900 font-sans">
+
+    <!-- Header -->
+    <header class="flex justify-between items-center p-6 bg-blue-600 shadow-lg">
+        <div class="text-2xl font-bold text-white">Nova Softwares</div>
+        <nav>
+            <ul class="flex space-x-6 text-lg">
+                <li><a href="#home" class="hover:text-orange-400">Home</a></li>
+                <li><a href="#about" class="hover:text-orange-400">About</a></li>
+                <li><a href="#services" class="hover:text-orange-400">Services</a></li>
+                <li><a href="#solutions" class="hover:text-orange-400">Solutions</a></li>
+                <li><a href="#contact" class="hover:text-orange-400">Contact</a></li>
+            </ul>
+        </nav>
+        <a href="#contact" class="bg-orange-500 text-white px-6 py-2 rounded-lg hover:bg-orange-400 transition duration-300">Get Started</a>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="relative h-screen bg-cover bg-center" style="background-image: url('hero-bg.jpg');">
+        <div class="absolute inset-0 bg-black bg-opacity-40 flex justify-center items-center text-center">
+            <div class="text-white space-y-6 animate__animated animate__fadeIn">
+                <h2 class="text-4xl md:text-5xl font-semibold">Empowering Nepali Businesses Through Technology</h2>
+                <p class="text-lg md:text-2xl">Specializing in Nepali software solutions, digital marketing, and SEO services.</p>
+                <div class="space-x-4">
+                    <a href="#about" class="bg-orange-500 text-white px-6 py-2 rounded-lg hover:bg-orange-400 transition duration-300">Learn More</a>
+                    <a href="#contact" class="bg-orange-500 text-white px-6 py-2 rounded-lg hover:bg-orange-400 transition duration-300">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="py-20 bg-blue-50">
+        <div class="max-w-screen-lg mx-auto text-center space-y-8">
+            <h2 class="text-3xl font-semibold">About Us</h2>
+            <p class="text-lg">Nova Softwares is a leading Nepali software and digital marketing company. We specialize in creating solutions that help businesses improve their online presence, drive traffic, and boost sales with proven SEO strategies.</p>
+            <img src="about-image.jpg" alt="About Nova Softwares" class="mx-auto mt-8 rounded-lg shadow-lg hover:scale-105 transition duration-300">
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 bg-white">
+        <div class="max-w-screen-lg mx-auto text-center">
+            <h2 class="text-3xl font-semibold">Our Services</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 mt-12">
+                <div class="service-item bg-blue-50 p-6 rounded-lg shadow-lg hover:bg-blue-100 transition duration-300">
+                    <div class="text-4xl mb-4">🔍</div>
+                    <h3 class="text-xl font-semibold">SEO Services</h3>
+                    <p>Improve your website's ranking on search engines and attract more traffic.</p>
+                </div>
+                <div class="service-item bg-blue-50 p-6 rounded-lg shadow-lg hover:bg-blue-100 transition duration-300">
+                    <div class="text-4xl mb-4">📱</div>
+                    <h3 class="text-xl font-semibold">Digital Marketing</h3>
+                    <p>Maximize your online presence with tailored digital marketing strategies.</p>
+                </div>
+                <div class="service-item bg-blue-50 p-6 rounded-lg shadow-lg hover:bg-blue-100 transition duration-300">
+                    <div class="text-4xl mb-4">🖥️</div>
+                    <h3 class="text-xl font-semibold">Custom Software Development</h3>
+                    <p>Create software that fits your specific business needs and drives growth.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-20 bg-blue-50">
+        <div class="max-w-screen-lg mx-auto text-center">
+            <h2 class="text-3xl font-semibold mb-10">What Our Clients Say</h2>
+            <div class="testimonial-container space-y-6">
+                <div class="testimonial bg-white p-6 rounded-lg shadow-lg hover:bg-gray-100 transition duration-300">
+                    <img src="client1.jpg" alt="Client Name" class="w-24 h-24 rounded-full mx-auto mb-4">
+                    <p class="text-lg">"Nova Softwares' SEO strategies helped us rank higher and drive more organic traffic to our website!"</p>
+                    <p>- Client Name, Company</p>
+                </div>
+                <div class="testimonial bg-white p-6 rounded-lg shadow-lg hover:bg-gray-100 transition duration-300">
+                    <img src="client2.jpg" alt="Client Name" class="w-24 h-24 rounded-full mx-auto mb-4">
+                    <p class="text-lg">"The digital marketing team provided exceptional results. We're seeing a significant increase in online engagement!"</p>
+                    <p>- Client Name, Company</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-white">
+        <div class="max-w-screen-lg mx-auto text-center">
+            <h2 class="text-3xl font-semibold mb-8">Contact Us</h2>
+            <form action="submit-form.php" method="POST" class="space-y-6">
+                <input type="text" name="name" placeholder="Your Name" class="w-full p-4 bg-gray-100 text-gray-900 rounded-lg border-none shadow-md focus:outline-none">
+                <input type="email" name="email" placeholder="Your Email" class="w-full p-4 bg-gray-100 text-gray-900 rounded-lg border-none shadow-md focus:outline-none">
+                <textarea name="message" placeholder="Your Message" class="w-full p-4 bg-gray-100 text-gray-900 rounded-lg border-none shadow-md focus:outline-none" rows="6"></textarea>
+                <button type="submit" class="bg-orange-500 text-white px-6 py-3 rounded-lg hover:bg-orange-400 transition duration-300">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-6 bg-blue-600 text-white text-center">
+        <div class="space-x-6">
+            <a href="#" class="hover:text-orange-400">LinkedIn</a>
+            <a href="#" class="hover:text-orange-400">Twitter</a>
+        </div>
+        <p class="mt-4">&copy; 2024 Nova Softwares. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
